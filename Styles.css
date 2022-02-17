@@ -1,0 +1,51 @@
+:root{
+  --dark-blue: #363f5f
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: #f0f2f5;
+    font-family: "poppins", sans-serif;
+}
+
+/*.container{
+  width: min(90w, 800px);
+  margin: auto;  
+} */
+
+/****** Title******/
+h2{
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--dark-blue);
+
+  font-weight: 400;
+}
+
+/* ***** header ******* */
+header{
+  background: #2d4a22;
+  padding: 2rem 0 10rem;
+  text-align: center;
+}
+
+#logo{
+  color: white;
+  font-weight: 100;  /* Espessura da fonte de acordo com a fonte baixada*/
+}
+
+/* ****Card **** */
+.card{
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+
+  margin-bottom: 2rem;
+  
+  color: var(--dark-blue);
+}
